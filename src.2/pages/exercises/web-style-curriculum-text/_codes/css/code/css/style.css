@@ -1,17 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
 div {
     color: darkslategrey;
-    font-family: arial, sans-serif ;
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 17px;
 }
 h1 {
     font-size: 30px;
     color: darkblue;
     text-align: center;
+    font-family: 'Audiowide', cursive;
 }
 h2 {
     font-size: 24px;
     background-color: lightskyblue;
     color: darkblue;
+    border-radius: 5px;
 }
 a {
     color: darkblue;
@@ -19,22 +23,40 @@ a {
 }
 a:visited {
     color: darkblue;
+    
 }
 a:hover {
     text-decoration: underline;
-
+}
+#person:hover a {
+    color: darkblue;
 }
 .white {
     color: white; 
 }
+.white:visited {
+    color: white;
+}
+#sumario:hover a {
+    color: darkblue;
+}
+#endereco:hover a {
+    color: darkblue;
+}
+#experiencia:hover a {
+    color: darkblue;
+}
+#habilidades:hover a {
+    color: darkblue;
+}
+#formacao:hover a {
+    color: darkblue;
+}
 .colorlightskyblue {
     color: lightskyblue;
 }
-h2:hover a {
-    color: darkblue;
-}
-h1:hover a {
-    color: darkblue;
+.colorlightskyblue:visited {
+    color: lightskyblue;
 }
 #copyright {
     font-weight: bold;
@@ -42,4 +64,44 @@ h1:hover a {
 }
 .text-center {
     text-align: center;
+}
+.voltar2 {
+    color: darkblue;
+    font-size: 1.3rem;
+    font-weight: 600;
+    width: auto;
+}
+.voltar2:visited {
+    color: darkblue;
+}
+.voltar2:hover {
+    color: white;
+    background-color: darkblue;
+    text-decoration: none;
+}
+
+@media print {
+    #article {
+      color: rgb(0, 0, 0);
+      font-family: Times, serif;
+    } 
+    h1 {
+      color: rgb(0, 0, 0);
+      font-family: Times, serif;
+    }
+
+    .text-center {
+        text-align: left;
+    }
+
+    h2 {
+        background-color: unset;
+    }
+
+    h2 a{
+        color: white;
+    }
+    .topo {
+        color: white;
+    }
 }
