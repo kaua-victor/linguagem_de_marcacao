@@ -1,0 +1,45 @@
+div {
+    color: darkslategrey;
+    font-family: arial, sans-serif ;
+    font-size: 17px;
+}
+h1 {
+    font-size: 30px;
+    color: darkblue;
+    text-align: center;
+}
+h2 {
+    font-size: 24px;
+    background-color: lightskyblue;
+    color: darkblue;
+}
+a {
+    color: darkblue;
+    text-decoration: none;
+}
+a:visited {
+    color: darkblue;
+}
+a:hover {
+    text-decoration: underline;
+
+}
+.white {
+    color: white; 
+}
+.colorlightskyblue {
+    color: lightskyblue;
+}
+h2:hover a {
+    color: darkblue;
+}
+h1:hover a {
+    color: darkblue;
+}
+#copyright {
+    font-weight: bold;
+    font-style: italic;
+}
+.text-center {
+    text-align: center;
+}
